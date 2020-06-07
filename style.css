@@ -159,6 +159,7 @@ ul li {
     }
     .box1:hover,
     .box2:hover {
+        text-transform: none;
         animation: pulse 1s;
     }
     @keyframes pulse {
