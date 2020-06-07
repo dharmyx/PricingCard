@@ -131,7 +131,7 @@ ul li {
     .content {
         display: flex;
         flex-direction: column;
-        max-width: 90vw; 
+        width: 90%; 
         height: auto;
     }
     .box1 {
