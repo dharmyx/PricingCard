@@ -65,6 +65,7 @@ main {
     background-color: #22161A;
     color: #AF2830;
     cursor: pointer;
+    outline-style: none;
 }
 .btn1 {
     padding: 15px 70px;
@@ -73,12 +74,15 @@ main {
     background-color: #22161A;
     color: #AF2830;
     cursor: pointer;
+    outline-style: none;
 }
+
 .btn:hover,
 .btn1:hover {
     color: #ffffff;
     background-color: #AF2830;
     cursor: pointer;
+    transition: all 2s ease;
 }
 
 h2 {
@@ -159,7 +163,8 @@ ul li {
     }
     .box1:hover,
     .box2:hover {
-        text-transform: none;
+        border: 3px solid #615c5e;
+        transition: all 2s ease;
         animation: pulse 1s;
     }
     @keyframes pulse {
